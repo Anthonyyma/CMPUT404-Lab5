@@ -11,10 +11,10 @@ SITEURL = ''
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
-
+THEME = 'templates/mytheme'
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
